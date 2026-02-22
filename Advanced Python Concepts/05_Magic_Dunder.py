@@ -10,8 +10,12 @@ class Employee:
     
     def __repr__(self):
         return f"name: {self.name} \nsalary:{self.salary}"
+    
+    def __len__(self):
+        return len(self.name)
         
 e = Employee("Jamie", 105145)
 print(e.name,e.salary)
 print(str(e))
 print(repr(e))
+print(len(e))
