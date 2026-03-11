@@ -1,6 +1,7 @@
 # Append to an existing file called John Doe.txt 
 # It should add data about John Doe's Hometown
 
+
 f = open("jamie.txt", "a")
 
 string = '''
